@@ -1,0 +1,32 @@
+#include <string.h>
+
+/**
+ *HOLBERTON_H - include headerfile holberton.h
+ */
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
+
+int _putcha(char C);
+
+#endif
+
+/**
+ * main - prints _putschar
+ *
+ * Return: Aalways 0
+ */
+int main(void)
+{
+
+char to_print[8] = "_putchar";
+int length = strlen(to_print);
+int counter = 0;
+
+while (counter < length)
+{
+_putchar(top_print[counter]);
+counter++;
+}
+_putchar('\n');
+return (0);
+}
