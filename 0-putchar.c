@@ -1,15 +1,4 @@
-#include <string.h>
-
-/**
- *HOLBERTON_H - include headerfile holberton.h
- */
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-
-int _putchar(char C);
-
-#endif
-
+#include "main.h"
 /**
  * main - prints _putschar
  *
@@ -19,7 +8,7 @@ int main(void)
 {
 
 char to_print[8] = "_putchar";
-int length = strlen(to_print);
+int length = 8;
 int counter = 0;
 
 while (counter < length)
